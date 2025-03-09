@@ -12,8 +12,7 @@ index cd37a5b..d9c609c 100644
                          this.setStatus(GameInstanceStatus.LAUNCHING);
                          this.launchGame();
                      } catch (Throwable var5) {
--                        LOGGER.fatal("Fatal error launching game. Report this to http://bugs.mojang.com please!", var5);
-+                        LOGGER.fatal("Fatal error launching game. Report this to https://github.com/olauncher/olauncher/issues/new please!", var5); // olauncher - have people report bugs to us
+                        LOGGER.fatal("Fatal error launching game. Report this to http://bugs.mojang.com please!", var5);
                      }
                  }
              }
